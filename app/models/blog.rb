@@ -9,6 +9,7 @@
 #  updated_at :datetime         not null
 #  slug       :string
 #  status     :integer          default("draft")
+#  topic_id   :bigint(8)
 #
 
 class Blog < ApplicationRecord
@@ -18,4 +19,6 @@ class Blog < ApplicationRecord
 
     #:title and :body cannont be empty
     validates_presence_of :title, :body 
+
+    belongs_to :topic
 end

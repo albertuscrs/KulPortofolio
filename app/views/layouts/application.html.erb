@@ -20,5 +20,10 @@
       <%= link_to "Sign Up", new_user_registration_path %>
     <% end %>
     <%= yield %>
+
+    <%# bikin session yang bisa dipindah2in tapi ga aman%>
+    <% if session[:source] %>
+    <p>Thanks for following me from <%= session[:source] %></p>
+    <% end %>
   </body>
 </html>

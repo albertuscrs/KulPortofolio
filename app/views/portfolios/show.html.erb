@@ -3,9 +3,10 @@
     <%= image_tag @portfolio_item.main_image unless @portfolio_item.main_image.nil? %>
 
     <h2><strong><%= @portfolio_item.title %></strong></h2>
+
     <em><%= @portfolio_item.subtitle %></em>
+
     <p><%= @portfolio_item.body %></p>
-    <%#= link_to "Edit Item", edit_portfolio_path(portfolio_item.id) %>
 
     <h2>Technologies Used</h2>
 
@@ -14,5 +15,3 @@
     <% end %>
 
     <hr>
-
-    <%#= session.inspect %>

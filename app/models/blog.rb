@@ -19,6 +19,6 @@ class Blog < ApplicationRecord
 
     #:title and :body cannont be empty
     validates_presence_of :title, :body 
-
-    belongs_to :topic
+    #:topic is now just optional
+    belongs_to :topic, optional: true
 end

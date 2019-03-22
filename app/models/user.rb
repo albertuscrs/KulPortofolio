@@ -35,12 +35,3 @@ class User < ApplicationRecord
   end
 
 end
-
-# def get_facebook_messages
-#   begin
-#     contact_fb
-#     @messages = retrieves_messages
-#   rescue IOError => e
-#     flash[:error] = "Error occurred contacting Facebook: #{e}"
-#   end
-# end

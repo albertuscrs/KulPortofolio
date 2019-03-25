@@ -18,11 +18,9 @@
           
           <%= render "shared/application_nav" %> <!--Partial HTML template-->
 
-          <%= login_helper %>
-        
           <%= yield %>
 
-          <%= copyright_generator %>
+          <%= render "shared/application_footer" %> 
 
           <%# bikin session yang bisa dipindah2in tapi ga aman%>
           

@@ -17,11 +17,14 @@
 
     <%= render "shared/nav", location: 'top' %> <!--Partial HTML template-->
     <%= login_helper %>
-    
-
+  
     <%= yield %>
 
+    <%= copyright_generator %>
+
     <%# bikin session yang bisa dipindah2in tapi ga aman%>
-    <%= source_helper("application") %>
+    
+      <%= source_helper("application") %>
+
   </body>
 </html>

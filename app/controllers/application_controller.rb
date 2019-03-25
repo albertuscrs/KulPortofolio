@@ -4,8 +4,4 @@ class ApplicationController < ActionController::Base
             SetSource,
             CurrentUserConcern,
             DefaultPageContent
-    #include SetSource
-    
-    
-
 end

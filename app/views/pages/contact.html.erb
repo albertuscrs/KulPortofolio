@@ -1,5 +1,23 @@
-<h1>Contact Me</h1>
-<p> <%= number_to_phone "05555555555" %> </p>
-<%#= number_with_delimiter "5555555555" %> </p>
+
+<%#= number_with_delimiter "5555555555" %>
 <%#= number_to_currency "05555555555" %> 
 <%#= number_to_currency "80.4" %> 
+<main role="main" class="inner cover">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="cover-heading">Contact Me!</h1>
+            <h2>Office Address</h2>
+            <p class="lead">Jl. Pulau Panjang 1 Blok M 6 no. 40, Permata Buana, Jakarta Barat, RT.12/RW.9, Kembangan Utara, Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11610</p>
+            <h2>Phone</h2>
+            <p class="lead"><%= number_to_phone "+6285716275212" %></p>
+            <h2>Email</h2>
+            <%= link_to 'Email me!', 'mailto:albertus.christyadhi@binus.ac.id?subject=PortfolioContact' %>
+            <!--<p><a href="mailto:albertus.christyadhi@binus.ac.id?subject=PortfolioContact">Email Me!</a></p>-->
+        </div>
+    
+        <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.682797129304!2d106.74089295096316!3d-6.173206662192124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7993a3f6e69%3A0xd33ace043dbb90be!2sOwner+Digital+Agency!5e0!3m2!1sen!2sid!4v1553570569191" width="300" height="300" frameborder="0" style="border:0" allowfullscreen>
+            </iframe>      
+        </div>
+    </div>
+</main>

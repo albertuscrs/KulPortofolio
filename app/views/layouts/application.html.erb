@@ -13,8 +13,21 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body class="text-center">
-        <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+  <body class="text-center"data-layout="rd-navbar-fixed"
+      data-sm-layout="rd-navbar-fixed"
+      data-md-layout="rd-navbar-fixed"
+      data-md-device-layout="rd-navbar-fixed"
+      data-lg-layout="rd-navbar-static"
+      data-lg-device-layout="rd-navbar-fixed"
+      data-xl-layout="rd-navbar-static"
+      data-xl-device-layout="rd-navbar-static"
+      data-lg-stick-up-offset="46px"
+      data-xl-stick-up-offset="46px"
+      data-xxl-stick-up-offset="46px"
+      data-lg-stick-up="true"
+      data-xl-stick-up="true"
+      data-xxl-stick-up="true">
+        <div class="cover-container d-flex h-100 p-5 mx-auto flex-column">
           
           <%= render "shared/application_nav" %> <!--Partial HTML template-->
 

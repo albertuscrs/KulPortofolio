@@ -1,8 +1,7 @@
-<h1>Hi<%= ", #{current_user.first_name}"%>! Have a good day!</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
-
-<h1>Blog posts!</h1>
-<%= @posts.inspect %>
-
-<h1>Skills!</h1>
-<%= @skills.inspect %>
+<div class="inner cover">
+  <h1 class="cover-heading">Cover you</h1>
+  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit corrupti laboriosam molestiae libero recusandae nam eos dignissimos incidunt numquam at a harum, velit aliquam dolor dicta sed ab error neque.</p>
+  <p class="lead">
+    <%= link_to 'Learn More', about_me_path, class: "btn btn-lg btn-secondary"%>
+  </p>
+</div>

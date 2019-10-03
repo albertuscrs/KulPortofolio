@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Guest User Model
 class GuestUser < User
-    attr_accessor :name, :first_name, :last_name, :email
+  attr_accessor :name, :first_name, :last_name, :email
 end

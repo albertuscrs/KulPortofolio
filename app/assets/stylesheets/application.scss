@@ -51,10 +51,6 @@ body {
 /*
  * Header
  */
-<<<<<<< HEAD
-
-=======
->>>>>>> dea5d3f9d45aac1127e92546a822b63523f95f67
 .masthead {
   margin-bottom: 2rem;
 }
@@ -65,11 +61,7 @@ body {
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
-<<<<<<< HEAD
-  font-weight: bold;
-=======
   font-weight: 700;
->>>>>>> dea5d3f9d45aac1127e92546a822b63523f95f67
   color: rgba(255, 255, 255, .5);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
@@ -80,11 +72,7 @@ body {
   border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-<<<<<<< HEAD
-.nav-masthead .nav-link+.nav-link {
-=======
 .nav-masthead .nav-link + .nav-link {
->>>>>>> dea5d3f9d45aac1127e92546a822b63523f95f67
   margin-left: 1rem;
 }
 
@@ -122,4 +110,16 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+/*
+ * Custom
+ */
+.card-block{
+  color: black;
+  text-align: left;
+}
+
+.auth-link a {
+  color: black;
 }

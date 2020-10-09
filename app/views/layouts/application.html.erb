@@ -17,13 +17,11 @@
   <body>
         <div class="cover-container d-flex h-100 p-5 mx-auto flex-column">
 
-          <%= render "shared/application_nav" %> <!--Partial HTML template-->
+          <%= render "shared/application_nav" %>
 
           <%= yield %>
 
           <%= render "shared/application_footer" %>
-
-          <%# bikin session yang bisa dipindah2in tapi ga aman%>
 
           <%= source_helper("application") %>
         </div>

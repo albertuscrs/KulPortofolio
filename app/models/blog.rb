@@ -18,7 +18,7 @@ class Blog < ApplicationRecord
     friendly_id :title, use: :slugged
 
     #:title and :body cannont be empty
-    validates_presence_of :title, :body 
+    validates_presence_of :title, :body
     #:topic is now just optional
     belongs_to :topic, optional: true
 

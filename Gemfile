@@ -35,6 +35,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'jquery-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -63,3 +64,4 @@ gem 'nokogiri', '~> 1.10', '>= 1.10.4'
 gem 'petergate', '~> 2.0', '>= 2.0.1'
 gem 'pry', '~> 0.12.2'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'

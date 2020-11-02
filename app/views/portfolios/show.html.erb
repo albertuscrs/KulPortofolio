@@ -1,17 +1,22 @@
-<h1>SHOW</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-7">
+            <%= image_tag @portfolio_item.main_image unless @portfolio_item.main_image.nil? %>
+        </div>
+        <div class="col-md-5">
+            <h2><strong><%= @portfolio_item.title %></strong></h2>
+            <hr>
+            <em><%= @portfolio_item.subtitle %></em>
 
-    <%= image_tag @portfolio_item.main_image unless @portfolio_item.main_image.nil? %>
+            <p><%= @portfolio_item.body %></p>
+            <hr>
 
-    <h2><strong><%= @portfolio_item.title %></strong></h2>
+            <h3>Technologies Used</h3>
 
-    <em><%= @portfolio_item.subtitle %></em>
+            <% @portfolio_item.technologies.each do |t| %>
+                <p> <%= t.name %> </p>
+            <% end %>
 
-    <p><%= @portfolio_item.body %></p>
-
-    <h2>Technologies Used</h2>
-
-    <% @portfolio_item.technologies.each do |t| %>
-        <p> <%= t.name %> </p>
-    <% end %>
-
-    <hr>
+        </div>
+    </div>
+</div>

@@ -60,7 +60,7 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'friendly_id', '~> 5.2.4'
 gem 'kul_view_tool', '~> 0.1.0'
-gem 'nokogiri', '~> 1.10', '>= 1.10.4'
+gem 'nokogiri', '~> 1.12'
 gem 'petergate', '~> 2.0', '>= 2.0.1'
 gem 'pry', '~> 0.12.2'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
